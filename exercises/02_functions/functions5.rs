@@ -3,7 +3,6 @@
 // Execute `rustlings hint functions5` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
 
 fn main() {
     let answer = square(3);
@@ -11,5 +10,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num // removing the semicolon indicates this is the tail of the function so return happens, otherwise u can ust add a return lol
+    num * num // removing the semicolon indicates this is the tail of the function so return happens, otherwise u can ust
 }
