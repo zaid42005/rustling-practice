@@ -11,5 +11,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num // removing the semicolon indicates this is the tail of the function so return happens, otherwise u can ust add a return lol
 }
